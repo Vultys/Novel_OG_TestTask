@@ -4,8 +4,9 @@ NPC2: {PlayerName}! You did great! I'm so proud of you!
 NPC2: Here is the information you need to know.
 NPC2: Book that you're looking is situated in {Location3Name}.
 NPC2: Here is the key to open the locker.
-NPC2: I wouldn't mind if you give it to me.
+NPC2: I wouldn't mind if you give it to me to destroy.
+NPC2: It caused too many pain to everybody...
 @unlock KeyToLocation3
 @hideAll
-@goto FourthDialog
+@goto UnlockingBook
 @stop

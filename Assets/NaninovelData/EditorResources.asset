@@ -161,6 +161,9 @@ MonoBehaviour:
     - name: FourthDialog
       pathPrefix: Scripts
       guid: a0e5f263549d71b49a7e5b0e87cb903e
+    - name: SelfThinking
+      pathPrefix: Scripts
+      guid: e33acb51c50d73840a99a5e5286cfecb
   - Id: Characters/376644b2-9ed8-450f-b8d2-f7f31ed84888
     Resources: []
   - Id: Characters/b155cdd8-2a5b-474c-a24b-c6d6e9e161f0
