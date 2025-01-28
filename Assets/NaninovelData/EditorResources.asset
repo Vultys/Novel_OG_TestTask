@@ -144,3 +144,52 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+  - Id: Scripts
+    Resources:
+    - name: Welcome
+      pathPrefix: Scripts
+      guid: 7188c6fe1b022144eb0ed2a0ba120c7a
+    - name: FirstDialog
+      pathPrefix: Scripts
+      guid: c3cbe807cc614bc4e8312434d4d2dfaf
+    - name: SecondDialog
+      pathPrefix: Scripts
+      guid: 4a65673b5052b944abfa901ae5c95355
+    - name: ThirdDialog
+      pathPrefix: Scripts
+      guid: 3b636140195170244a9c5ef1c70c0b66
+    - name: FourthDialog
+      pathPrefix: Scripts
+      guid: a0e5f263549d71b49a7e5b0e87cb903e
+  - Id: Characters/376644b2-9ed8-450f-b8d2-f7f31ed84888
+    Resources: []
+  - Id: Characters/b155cdd8-2a5b-474c-a24b-c6d6e9e161f0
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Gina
+      guid: a37a8ad3ef5160e43aba06ab7153d316
+  - Id: Characters/6b38ec34-f804-483c-8687-79fb7998885e
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Karolina
+      guid: 3dc83fb8fc3a12244b8ea8fcf3e17af9
+  - Id: Backgrounds/291b5f44-94c6-4b98-8013-95c034065b6b
+    Resources:
+    - name: Day
+      pathPrefix: Backgrounds/Location1
+      guid: 63ad96f931278fa42a10cbae93fa6911
+  - Id: Backgrounds/0028d3e9-196e-4771-95ae-6f94d0fa2b0d
+    Resources:
+    - name: Day
+      pathPrefix: Backgrounds/Location2
+      guid: 6d1ab506f62d57e4e8d4bc15232bcd22
+  - Id: Characters/b0f52597-2814-44e3-815f-61d5a5bc4584
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Butler
+      guid: 7839c8df6cc222a439dd580a11c13eaa
+  - Id: Backgrounds/8779a991-bebc-46b9-b9c0-afbbcb4475a8
+    Resources:
+    - name: Day
+      pathPrefix: Backgrounds/Location0
+      guid: cd1f5620aa259534f82adf51a47556ab
