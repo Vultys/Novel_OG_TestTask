@@ -170,8 +170,8 @@ MonoBehaviour:
       guid: a37a8ad3ef5160e43aba06ab7153d316
   - Id: Characters/6b38ec34-f804-483c-8687-79fb7998885e
     Resources:
-    - name: Default
-      pathPrefix: Characters/Karolina
+    - name: Calm
+      pathPrefix: Characters/NPC2
       guid: 3dc83fb8fc3a12244b8ea8fcf3e17af9
   - Id: Backgrounds/291b5f44-94c6-4b98-8013-95c034065b6b
     Resources:
