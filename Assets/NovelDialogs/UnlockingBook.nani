@@ -1,7 +1,9 @@
 
+@back Day id:Location3
 Player: Here you are!
 @unlock BookInLocation3
 Player: Looks powerful!
-Player: What to do best with it...
+Player: Curious what's inside it...
 @hideAll
+@goto SelfThinking
 @stop

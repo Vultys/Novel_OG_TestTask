@@ -204,3 +204,8 @@ MonoBehaviour:
     - name: BookInLocation3
       pathPrefix: Unlockables
       guid: 1a2db85752a55744798e5b1969d5ed0f
+  - Id: Backgrounds/341c85df-8261-4edd-8c00-4de7ce2e7ea1
+    Resources:
+    - name: Day
+      pathPrefix: Backgrounds/Location3
+      guid: cf825aad9b8b4124aaf7e9268e266cc8
