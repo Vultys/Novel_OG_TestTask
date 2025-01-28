@@ -5,6 +5,6 @@ NPC2: Oh! {PlayerName}! Here you are!
 NPC2: I waited for you...
 NPC2: I know where it is that you're looking for.
 NPC2: But you need to show your best to persuade me to reveal you the information 
-@hide NPC2
-@goto ThirdDialog
+@hideAll
+@goto RewardingDialog
 @stop

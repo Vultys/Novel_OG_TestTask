@@ -4,5 +4,5 @@
 @stop
 Player: You can call me {PlayerName}.
 Butler: As you wish, Sir. {NPC1Name} is waiting for you.
-@hide Butler
+@hideAll
 @goto StartQuestDialog

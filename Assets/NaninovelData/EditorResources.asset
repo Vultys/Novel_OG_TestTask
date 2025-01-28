@@ -182,7 +182,7 @@ MonoBehaviour:
     Resources:
     - name: Day
       pathPrefix: Backgrounds/Location2
-      guid: 6d1ab506f62d57e4e8d4bc15232bcd22
+      guid: 4160901f173016148869c54dfca3767b
   - Id: Characters/b0f52597-2814-44e3-815f-61d5a5bc4584
     Resources:
     - name: Default
@@ -193,3 +193,11 @@ MonoBehaviour:
     - name: Day
       pathPrefix: Backgrounds/Location0
       guid: cd1f5620aa259534f82adf51a47556ab
+  - Id: Unlockables
+    Resources:
+    - name: KeyToLocation3
+      pathPrefix: Unlockables
+      guid: 66a22720092405746ae8a8d027939cb9
+    - name: BookInLocation3
+      pathPrefix: Unlockables
+      guid: 1a2db85752a55744798e5b1969d5ed0f

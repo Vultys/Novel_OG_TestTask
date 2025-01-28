@@ -1,0 +1,11 @@
+@back Day id:Location2
+@char NPC2 avatar:Calm
+NPC2: {PlayerName}! You did great! I'm so proud of you!
+NPC2: Here is the information you need to know.
+NPC2: Book that you're looking is situated in {Location3Name}.
+NPC2: Here is the key to open the locker.
+NPC2: I wouldn't mind if you give it to me.
+@unlock KeyToLocation3
+@hideAll
+@goto FourthDialog
+@stop

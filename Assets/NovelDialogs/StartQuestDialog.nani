@@ -5,6 +5,6 @@ NPC1: Hi, {PlayerName}! Can you help me with something?
 NPC1: I want you to bring me the old book of my family!
 NPC1: This book contains the mansion's and my family's secrets.
 NPC1: {NPC2Name} knows more about where it is! 
-@hide NPC1
+@hideAll
 @goto RedirectingToMiniGame
 @stop
