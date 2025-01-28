@@ -165,8 +165,8 @@ MonoBehaviour:
     Resources: []
   - Id: Characters/b155cdd8-2a5b-474c-a24b-c6d6e9e161f0
     Resources:
-    - name: Default
-      pathPrefix: Characters/Gina
+    - name: Calm
+      pathPrefix: Characters/NPC1
       guid: a37a8ad3ef5160e43aba06ab7153d316
   - Id: Characters/6b38ec34-f804-483c-8687-79fb7998885e
     Resources:
@@ -177,7 +177,7 @@ MonoBehaviour:
     Resources:
     - name: Day
       pathPrefix: Backgrounds/Location1
-      guid: 63ad96f931278fa42a10cbae93fa6911
+      guid: b30fdb57ecd8bf04eaa58772af0214c2
   - Id: Backgrounds/0028d3e9-196e-4771-95ae-6f94d0fa2b0d
     Resources:
     - name: Day
