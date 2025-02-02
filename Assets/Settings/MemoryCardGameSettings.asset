@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb64686bcf4f1c4d9df206b9447e259, type: 3}
+  m_Name: MemoryCardGameSettings
+  m_EditorClassIdentifier: 
+  cardFaces:
+  - {fileID: 21300000, guid: 7d722fce3a71ebb4c8fc960bae46e776, type: 3}
+  - {fileID: 21300000, guid: a2365377f9a7d404c9aeecf2ae06716c, type: 3}
+  - {fileID: 21300000, guid: 046d9925baf5c9b44ae8c34bf43186e5, type: 3}
+  - {fileID: 21300000, guid: 6b4f6f676a1505a408ec21e045a9b86d, type: 3}
+  cardBack: {fileID: 21300000, guid: 9140024421693874d96de718c0814605, type: 3}
+  cardPrefab: {fileID: 8191011608371599550, guid: da595bc24d9b9e74cb45e2ee5600df4f,
+    type: 3}
+  gridTransform: {fileID: 0}
