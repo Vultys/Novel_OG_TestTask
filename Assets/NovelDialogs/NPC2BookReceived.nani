@@ -1,0 +1,9 @@
+@hideAll
+@back Day id:Location1
+@char NPC2.Happy
+NPC1: It was very wise of you!
+@hide NPC2
+@char NPC1.Sad
+NPC1: It was mine book!
+@hideAll
+@stop

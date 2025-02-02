@@ -1,0 +1,10 @@
+
+@back Day id:Location1
+@char NPC1.Calm
+@char NPC2.Calm
+Who should keep the book?
+@choice "Give it to {NPC1Name}" goto:NPC1BookReceived
+@choice "Give it to {NPC2Name}" goto:NPC2BookReceived
+@choice "Keep it myself!" goto:KeepingBook
+@stop
+@hideAll

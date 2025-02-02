@@ -5,4 +5,5 @@ Player: Was she a bit overexaggerating with damage the book caused.
 Player: {NPC1Name} wants it, but does she know the real power of the book?
 Player: What to do best with it...
 @hideAll
+@goto BookDestiny
 @stop

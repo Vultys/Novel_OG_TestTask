@@ -1,5 +1,5 @@
 @back Day id:Location2
-@char NPC2 avatar:Calm
+@char NPC2.Calm
 NPC2: {PlayerName}! You did great! I'm so proud of you!
 NPC2: Here is the information you need to know.
 NPC2: Book that you're looking is situated in {Location3Name}.

@@ -19,3 +19,5 @@ MonoBehaviour:
     value: '"Susy"'
   - name: Location3Name
     value: '"Bedroom"'
+  - name: PlayerName
+    value: 

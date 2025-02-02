@@ -1,6 +1,7 @@
 @back Day id:Location0
-@char Butler avatar:Default
+@char Butler.Default
 @input PlayerName summary:"Choose your name."
+@set PlayerName
 @stop
 Player: You can call me {PlayerName}.
 Butler: As you wish, Sir. {NPC1Name} is waiting for you.
