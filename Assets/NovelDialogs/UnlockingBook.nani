@@ -4,6 +4,7 @@ Player: Here you are!
 @unlock BookInLocation3
 Player: Looks powerful!
 Player: Curious what's inside it...
+@quest author:{NPC2Name} description:"Bring back the book"
 @hideAll
 @goto SelfThinking
 @stop

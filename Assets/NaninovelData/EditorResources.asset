@@ -17,7 +17,7 @@ MonoBehaviour:
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
-      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+      guid: ea25aefeb7ee3734f9471aea5cb62e4a
   - Id: TextPrinters/f16cfab1-e8a1-4c93-a9d5-f167173b90c7
     Resources:
     - name: Fullscreen
@@ -144,6 +144,9 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: QuestlogUI
+      pathPrefix: UI
+      guid: 3a9d6ad66ec104d4a8ca66b0e60c7a56
   - Id: Scripts
     Resources:
     - name: Welcome

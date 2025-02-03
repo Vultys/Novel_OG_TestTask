@@ -6,5 +6,6 @@ NPC1: I want you to bring me the old book of my family!
 NPC1: This book contains the mansion's and my family's secrets.
 NPC1: {NPC2Name} knows more about where it is! 
 @hideAll
+@quest author:{NPC1Name} description:"Go to {NPC2Name} to know more about the book"
 @goto RedirectingToMiniGame
 @stop

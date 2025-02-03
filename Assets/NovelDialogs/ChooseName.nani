@@ -4,5 +4,6 @@
 @stop
 Player: You can call me {PlayerName}.
 Butler: As you wish, Sir. {NPC1Name} is waiting for you.
+@quest author:Butler description:"Meet {NPC1Name} at mansion."
 @hideAll
-@goto BookDestiny
+@goto StartQuestDialog

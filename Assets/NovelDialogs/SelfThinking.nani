@@ -7,3 +7,5 @@ Player: What to do best with it...
 @hideAll
 @goto BookDestiny
 @stop
+
+@quest description:"Decide to whom belongs the book"
