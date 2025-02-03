@@ -1,5 +1,5 @@
-@hideAll
-@back Day id:Location1
+@hide NPC2
+@hide NPC1
 @char NPC2.Happy
 NPC1: It was very wise of you!
 @hide NPC2

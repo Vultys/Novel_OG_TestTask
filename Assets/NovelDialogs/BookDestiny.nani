@@ -7,4 +7,3 @@ Who should keep the book?
 @choice "Give it to {NPC2Name}" goto:NPC2BookReceived
 @choice "Keep it myself!" goto:KeepingBook
 @stop
-@hideAll

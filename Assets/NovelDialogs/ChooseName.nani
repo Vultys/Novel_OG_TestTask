@@ -5,4 +5,4 @@
 Player: You can call me {PlayerName}.
 Butler: As you wish, Sir. {NPC1Name} is waiting for you.
 @hideAll
-@goto StartQuestDialog
+@goto BookDestiny
