@@ -17,7 +17,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a2365377f9a7d404c9aeecf2ae06716c, type: 3}
   - {fileID: 21300000, guid: 046d9925baf5c9b44ae8c34bf43186e5, type: 3}
   - {fileID: 21300000, guid: 6b4f6f676a1505a408ec21e045a9b86d, type: 3}
-  cardBack: {fileID: 21300000, guid: 9140024421693874d96de718c0814605, type: 3}
   cardPrefab: {fileID: 8191011608371599550, guid: da595bc24d9b9e74cb45e2ee5600df4f,
     type: 3}
-  gridTransform: {fileID: 0}
+  checkDelay: 1

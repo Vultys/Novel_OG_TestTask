@@ -7,5 +7,5 @@ public class MemoryCardGameSettings : ScriptableObject
 
     public Card cardPrefab;
 
-    public GameObject gridTransform;
+    public float checkDelay;
 }
