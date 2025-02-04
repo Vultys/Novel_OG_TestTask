@@ -152,19 +152,19 @@ MonoBehaviour:
       guid: 3b6eae8bd44d9a9419bb977ee508422f
   - Id: Scripts
     Resources:
-    - name: Welcome
+    - name: ChooseName
       pathPrefix: Scripts
       guid: 7188c6fe1b022144eb0ed2a0ba120c7a
-    - name: FirstDialog
+    - name: StartQuestDialog
       pathPrefix: Scripts
       guid: c3cbe807cc614bc4e8312434d4d2dfaf
-    - name: SecondDialog
+    - name: RedirectingToMiniGame
       pathPrefix: Scripts
       guid: 4a65673b5052b944abfa901ae5c95355
-    - name: ThirdDialog
+    - name: RewardingDialog
       pathPrefix: Scripts
       guid: 3b636140195170244a9c5ef1c70c0b66
-    - name: FourthDialog
+    - name: UnlockingBook
       pathPrefix: Scripts
       guid: a0e5f263549d71b49a7e5b0e87cb903e
     - name: SelfThinking
