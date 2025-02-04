@@ -29,17 +29,29 @@ public class QuestlogPanel : CustomUI, IQuestlogUI, ILocalizableUI
     private readonly Stack<QuestEntityUI> messagesPool = new Stack<QuestEntityUI>();
     private IInputManager inputManager;
 
+    /// <summary>
+    /// Adds message to the log.
+    /// </summary>
+    /// <param name="text"> Text of the message. </param>
+    /// <param name="actorId"> ID of the actor associated with the message or null. </param>
     public virtual void AddMessage(LocalizableText text, string actorId = null)
     {
-        if(LastMessage) LastMessage.MakeInactive();
+        if(LastMessage) LastMessage.MakeCompleted();
         SpawnMessage(new QuestEntity(text, actorId));
     }
 
+    /// <summary>
+    /// Appends text to the last message of the log (if exists).
+    /// </summary>
+    /// <param name="text"> Text to append to the last message. </param>
     public virtual void AppendMessage(LocalizableText text)
     {
         if (LastMessage) LastMessage.Append(text);
     }
 
+    /// <summary>
+    /// Removes all messages from the backlog.
+    /// </summary>
     public virtual void Clear()
     {
         foreach (var message in messages)
@@ -78,6 +90,10 @@ public class QuestlogPanel : CustomUI, IQuestlogUI, ILocalizableUI
             cancel.OnEnd -= Hide;
     }
 
+    /// <summary>
+    /// Shows the quest log.
+    /// </summary>
+    /// <param name="message"> The message to show. </param>
     protected virtual void SpawnMessage(QuestEntity message)
     {
         var messageUI = default(QuestEntityUI);
@@ -106,6 +122,10 @@ public class QuestlogPanel : CustomUI, IQuestlogUI, ILocalizableUI
         messageUI.Initialize(message);
     }
 
+    /// <summary>
+    /// Shows the quest log.
+    /// </summary>
+    /// <param name="visible"> Whether to show the quest log. </param>
     protected override void HandleVisibilityChanged(bool visible)
     {
         base.HandleVisibilityChanged(visible);
@@ -137,6 +157,10 @@ public class QuestlogPanel : CustomUI, IQuestlogUI, ILocalizableUI
                 SpawnMessage(message);
     }
 
+    /// <summary>
+    /// Shows the quest log.
+    /// </summary>
+    /// <returns> A task that represents the asynchronous operation. </returns>
     protected override GameObject FindFocusObject()
     {
         var message = messages.Last;

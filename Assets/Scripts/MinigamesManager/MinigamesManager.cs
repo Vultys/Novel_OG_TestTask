@@ -2,6 +2,9 @@
 using Naninovel.Commands;
 using UnityEngine;
 
+/// <summary>
+/// Manages the minigames.
+/// </summary>
 public class MinigamesManager : MonoBehaviour
 {
     [SerializeField] private MemoryCardGameSettings _memoryCardSettings;
@@ -10,8 +13,27 @@ public class MinigamesManager : MonoBehaviour
 
     private BaseMinigameManager _currentMinigame;
 
-    private readonly string _dialogNameAfterMemoryGame = "RewardingDialog";
+    private const string _dialogNameAfterMemoryGame = "RewardingDialog";
 
+    public static MinigamesManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    /// <summary>
+    /// Starts the minigame.
+    /// </summary>
+    /// <param name="minigameType"> The type of the minigame to start. </param>
     public void StartMinigame(MinigameType minigameType)
     {
         switch (minigameType)
@@ -25,6 +47,9 @@ public class MinigamesManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Finishes the memory card game.
+    /// </summary>
     public void FinishedMemoryCardGame()
     {
         var switchCommand = new Novel { ScriptPath = _dialogNameAfterMemoryGame };

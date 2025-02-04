@@ -1,5 +1,8 @@
 ﻿using Naninovel;
 
+/// <summary>
+/// Close button for the quest log.
+/// </summary>
 public class QuestlogCloseButton : ScriptableLabeledButton
 {
     private QuestlogPanel questlogPanel;

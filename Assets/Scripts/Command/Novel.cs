@@ -2,18 +2,20 @@
 
 namespace Naninovel.Commands
 {
+    /// <summary>
+    /// Switches to novel mode from minigame mode.
+    /// </summary>
     [CommandAlias("novel")]
     public class Novel : Command
     {
         public StringParameter ScriptPath;
+
         public StringParameter Label;
 
         public override async UniTask ExecuteAsync(AsyncToken asyncToken)
         {
-            var minigameCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
-            minigameCamera.enabled = false;
-            var naniCamera = Engine.GetService<ICameraManager>().Camera;
-            naniCamera.enabled = true;
+            DisableMinigameCamera();
+            EnableNaniCamera();
             
             if (Assigned(ScriptPath))
             {
@@ -21,8 +23,37 @@ namespace Naninovel.Commands
                 await scriptPlayer.PreloadAndPlayAsync(ScriptPath, Label);
             }
             
+            EnableInput();
+        }
+
+        /// <summary>
+        /// Disables the minigame camera.
+        /// </summary>
+        private void DisableMinigameCamera()
+        {
+            var minigameCamera = GameObject.FindWithTag("MainCamera")?.GetComponent<Camera>();
+            if (minigameCamera != null)
+                minigameCamera.enabled = false;
+        }
+    
+        /// <summary>
+        /// Enables the Naninovel camera.
+        /// </summary>
+        private void EnableNaniCamera()
+        {
+            var naniCamera = Engine.GetService<ICameraManager>()?.Camera;
+            if (naniCamera != null)
+                naniCamera.enabled = true;
+        }
+
+        /// <summary>
+        /// Enables the Naninovel input.
+        /// </summary>
+        private void EnableInput()
+        {
             var inputManager = Engine.GetService<IInputManager>();
-            inputManager.ProcessInput = true;
+            if (inputManager != null)
+                inputManager.ProcessInput = true;
         }
     }
 }
