@@ -27,6 +27,7 @@ public class MemoryCardManager : BaseMinigameManager
 
 	public override void StartMinigame()
 	{
+		_container.gameObject.SetActive(true);
 		PrepareSprites();
 		CreateCards();
 	}
