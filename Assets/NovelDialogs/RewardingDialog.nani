@@ -1,12 +1,13 @@
-@back Day id:Location2
+@back Location2
 @char NPC2.Calm
 NPC2: {PlayerName}! You did great! I'm so proud of you!
 NPC2: Here is the information you need to know.
 NPC2: Book that you're looking for is situated in {Location3Name}.
 NPC2: Here is the key to open the locker.
+@unlock Location3Key
+@showUI InventoryUI
 NPC2: I wouldn't mind if you give it to me to destroy.
 NPC2: It caused too many pain to everybody...
-@unlock KeyToLocation3
 @quest author:{NPC1Name} description:"Recover the book at {Location3Name}"
 @hideAll
 @goto UnlockingBook

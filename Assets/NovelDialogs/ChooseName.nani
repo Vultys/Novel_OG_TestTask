@@ -1,4 +1,7 @@
-@back Day id:Location0
+@lock Location3Key
+@lock Location3Book
+@lock BookGiven
+@back Location0
 @char Butler.Default
 @input PlayerName summary:"Choose your name."
 @stop

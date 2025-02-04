@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 5349259986853156907}
   - component: {fileID: 4790894079338724714}
   - component: {fileID: 3994117238343669009}
-  - component: {fileID: 5272533603298512782}
+  - component: {fileID: 247479545523026146}
   m_Layer: 5
   m_Name: Btn_MainMenu2
   m_TagString: Untagged
@@ -299,7 +299,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &5272533603298512782
+--- !u!114 &247479545523026146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1290272817369344675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85721b7db1f80f349b9a4e778772c293, type: 3}
+  m_Script: {fileID: 11500000, guid: 16c7b0aaf713df847b90bb9680083976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   disableInteraction: 0
@@ -507,7 +507,6 @@ GameObject:
   - component: {fileID: 1594181790683823561}
   - component: {fileID: 7071644361618367508}
   - component: {fileID: 217266240946545506}
-  - component: {fileID: 6742158770430304250}
   m_Layer: 5
   m_Name: Btn_MainMenu3
   m_TagString: Untagged
@@ -638,31 +637,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &6742158770430304250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729825125154691668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16c7b0aaf713df847b90bb9680083976, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableInteraction: 0
-  visibleOnAwake: 1
-  controlOpacity: 1
-  fadeTime: 0.3
-  ignoreTimeScale: 1
-  focusObject: {fileID: 0}
-  focusMode: 0
-  onShow:
-    m_PersistentCalls:
-      m_Calls: []
-  onHide:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &5365770298358638309
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,7 +807,7 @@ GameObject:
   - component: {fileID: -2076574455748797901}
   - component: {fileID: 1439935063269152454}
   m_Layer: 5
-  m_Name: TitleUI
+  m_Name: CustomTitleUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1049,7 +1023,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MAP SELECT
+  m_Text: GLOBAL MAP
 --- !u!1 &8999609987170738338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,4 +1101,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CONTINUE
+  m_Text: SETTINGS

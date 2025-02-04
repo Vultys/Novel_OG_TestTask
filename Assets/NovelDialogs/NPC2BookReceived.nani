@@ -1,4 +1,5 @@
 @questComplete
+@unlock BookGiven
 @hide NPC2
 @hide NPC1
 @char NPC2.Happy
@@ -7,5 +8,6 @@ NPC1: It was very wise of you!
 @char NPC1.Sad
 NPC1: It was mine book!
 @hideAll
+@hideUI InventoryUI
 @showUI TitleUI
 @stop

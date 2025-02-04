@@ -438,7 +438,7 @@ MonoBehaviour:
   onEvent:
     m_PersistentCalls:
       m_Calls: []
-  playScript: 1
+  playCommand: 1
 --- !u!1 &1734554740612872
 GameObject:
   m_ObjectHideFlags: 0

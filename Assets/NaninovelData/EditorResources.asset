@@ -147,6 +147,9 @@ MonoBehaviour:
     - name: QuestlogUI
       pathPrefix: UI
       guid: 3a9d6ad66ec104d4a8ca66b0e60c7a56
+    - name: InventoryUI
+      pathPrefix: UI
+      guid: 3b6eae8bd44d9a9419bb977ee508422f
   - Id: Scripts
     Resources:
     - name: Welcome
@@ -203,36 +206,33 @@ MonoBehaviour:
     - name: Happy
       pathPrefix: Characters/NPC2
       guid: 5196387c8e5736e4182ca00cc728318c
-  - Id: Backgrounds/291b5f44-94c6-4b98-8013-95c034065b6b
-    Resources:
-    - name: Day
-      pathPrefix: Backgrounds/Location1
-      guid: b30fdb57ecd8bf04eaa58772af0214c2
-  - Id: Backgrounds/0028d3e9-196e-4771-95ae-6f94d0fa2b0d
-    Resources:
-    - name: Day
-      pathPrefix: Backgrounds/Location2
-      guid: 4160901f173016148869c54dfca3767b
   - Id: Characters/b0f52597-2814-44e3-815f-61d5a5bc4584
     Resources:
     - name: Default
       pathPrefix: Characters/Butler
       guid: 7839c8df6cc222a439dd580a11c13eaa
-  - Id: Backgrounds/8779a991-bebc-46b9-b9c0-afbbcb4475a8
-    Resources:
-    - name: Day
-      pathPrefix: Backgrounds/Location0
-      guid: cd1f5620aa259534f82adf51a47556ab
   - Id: Unlockables
     Resources:
-    - name: KeyToLocation3
+    - name: Location3Key
       pathPrefix: Unlockables
       guid: 66a22720092405746ae8a8d027939cb9
-    - name: BookInLocation3
+    - name: Location3Book
       pathPrefix: Unlockables
       guid: 1a2db85752a55744798e5b1969d5ed0f
-  - Id: Backgrounds/341c85df-8261-4edd-8c00-4de7ce2e7ea1
+    - name: BookGiven
+      pathPrefix: Unlockables
+      guid: 6f5ab23259753994aa0688b323874c04
+  - Id: Backgrounds/f0254700-3c96-4cc3-bfd9-039cca6bc989
     Resources:
-    - name: Day
-      pathPrefix: Backgrounds/Location3
+    - name: Location0
+      pathPrefix: Backgrounds/MainBackground
+      guid: cd1f5620aa259534f82adf51a47556ab
+    - name: Location1
+      pathPrefix: Backgrounds/MainBackground
+      guid: b30fdb57ecd8bf04eaa58772af0214c2
+    - name: Location2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4160901f173016148869c54dfca3767b
+    - name: Location3
+      pathPrefix: Backgrounds/MainBackground
       guid: cf825aad9b8b4124aaf7e9268e266cc8

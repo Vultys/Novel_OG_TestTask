@@ -98,6 +98,8 @@ MonoBehaviour:
   allowedSamplers: []
   modalUI: 1
   modalGroup: 
+  buttonControls: {fileID: 1709518715411574}
+  controlsLegend: {fileID: 1135643424092214619}
   fontChangeConfiguration:
   - Object: {fileID: 1249989664728418}
     IncludeChildren: 1
@@ -119,8 +121,6 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   viewerPanel: {fileID: 7024225021272710772}
   grid: {fileID: 5574319400583961586}
-  buttonControls: {fileID: 1709518715411574}
-  controlsLegend: {fileID: 1135643424092214619}
 --- !u!225 &225933482615153488
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1447,6 +1447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PaginationPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3616756866975826430, guid: ae0c45c69e038b4499eeb5b00d90c939,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c45c69e038b4499eeb5b00d90c939, type: 3}

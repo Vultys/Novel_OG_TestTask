@@ -1,7 +1,7 @@
 
-@back Day id:Location3
+@back Location3
 Player: Here you are!
-@unlock BookInLocation3
+@unlock Location3Book
 Player: Looks powerful!
 Player: Curious what's inside it...
 @quest author:{NPC2Name} description:"Bring back the book"
